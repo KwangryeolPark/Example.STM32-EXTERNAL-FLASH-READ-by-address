@@ -141,7 +141,7 @@ Error_Handler();
 	  Error_Handler();
   }
 
-  uint8_t *flash_memory = (uint8_t *)(0x90000000);	// A
+  uint8_t *flash_memory = (uint8_t *)(0x90000000);	//
 
   uint8_t flash_data = flash_memory[0];
   while (1)
