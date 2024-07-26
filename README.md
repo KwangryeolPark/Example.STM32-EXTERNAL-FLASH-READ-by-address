@@ -6,3 +6,7 @@ BSP 라이브러리를 이용하며, BSP_QSPI_Read 함수를 이용하여 데이
 ex)
 uint8_t *flash_memory = (uint8_t *)(0x90000000);	// Address of External FLASH
 ```
+
+## 사용법
+1. STM32CubeProgrammer 설치
+2. Hello World.bin 파일을 STM32에 업로드
